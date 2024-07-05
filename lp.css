@@ -1,0 +1,57 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(LP.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.buffer{
+    height: 10rem;
+}
+hr{
+    margin: 20px auto;
+    border-color:beige;
+    border: 2.5px solid beige;
+    border-radius: 1px;
+    max-width: 65px;
+    opacity: 1;
+}
+.btn{
+    font-weight: 700px;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-danger:hover{
+border-width: 2px;
+border-color: beige;
+transition: all 1s;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+a{
+   text-decoration: none;
+   color: beige;
+}
+.spinner{
+    height: 30px;
+    width: 30px;
+    border: 7px solid;
+    border-radius: 50%;
+    border-color: red black black black;
+    animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate{
+    to {transform: rotate(360deg);}
+}
